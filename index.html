@@ -27,6 +27,19 @@
         .app-card:hover {
             background-color: #ddd;
         }
+        .app-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            margin: 10px;
+            object-fit: cover;
+        }
+        .images-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -37,6 +50,13 @@
         <a href="/app3" class="app-card">App 3</a>
         <a href="/app4" class="app-card">App 4</a>
         <a href="/app5" class="app-card">App 5</a>
+    </div>
+    <div class="images-section">
+        <img src="images/favicon.png" alt="App 1 Image" class="app-image">
+        <img src="/path/to/app2-image.png" alt="App 2 Image" class="app-image">
+        <img src="/path/to/app3-image.png" alt="App 3 Image" class="app-image">
+        <img src="/path/to/app4-image.png" alt="App 4 Image" class="app-image">
+        <img src="/path/to/app5-image.png" alt="App 5 Image" class="app-image">
     </div>
 </body>
 </html>
